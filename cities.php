@@ -5,6 +5,8 @@
 
 <?php
 //13
+include("navigation.php");
+
 $con=mysqli_connect("localhost","root","123","world");
 if (mysqli_connect_errno($con))
   {
