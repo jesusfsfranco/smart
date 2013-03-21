@@ -1,10 +1,11 @@
 <html>
-<title>Cities of the Woooooooorld
+<title>Cities of the World
 </title>
 <body>
 
 
 <?php
+include("navigation.php");
 
 if(!empty($_GET["ID"])){
 
