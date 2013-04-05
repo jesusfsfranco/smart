@@ -5,9 +5,8 @@
 <body>
 
 
-
 <p>
-<a href="countries.php"><h1>Countries</h1></a><br/>
+<a href="countries.php"><h1>Countries</h1></a>
 <a href="cities.php"><h1>Cities</h1></a><br/>
 </p>
 
