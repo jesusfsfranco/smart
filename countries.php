@@ -3,7 +3,10 @@
 <head></head>
 <body>
 <?php
+
+require("security.php");
 include("navigation.php");
+
 ?>
 
 
