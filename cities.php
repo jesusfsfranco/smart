@@ -4,9 +4,10 @@
 <body>
 
 <?php
-//13
-include("navigation.php");
 
+require("security.php");
+include("navigation.php");
+	
 $con=mysqli_connect("localhost","root","123","world");
 if (mysqli_connect_errno($con))
   {
@@ -37,7 +38,7 @@ $results = mysqli_query($con,"SELECT ID, CountryCode, Name, District, Population
 	//echo "<a href= http://localhost/PHP/1marzo7.php/#$row[ID]> Examples</a>";
 	}
 	
-var_dump ($fila);
+//var_dump ($fila);
 
 
 ?>
